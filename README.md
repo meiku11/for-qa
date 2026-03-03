@@ -3,9 +3,9 @@
 
 
 Используемый стек:
-Python 3.12+
-pytest
-Playwright
+- Python 3.12+
+- pytest
+- Playwright
 
 
 Реализованные проверки:
@@ -16,23 +16,13 @@ Playwright
 
 
 Как запустить:
-1. Создать виртуальное окружение
-  python3.12 -m venv venv
-  source venv/bin/activate
-
-2. Установить зависимости
-  pip install -r requirements.txt
-
-3. Установить браузеры
-  python -m playwright install
-
-4. Запустить тесты
-  pytest
-Запуск с отображением браузера
-  pytest --headed
+1. Создать виртуальное окружение "python3.12 -m venv venv", "source venv/bin/activate"
+2. Установить зависимости "pip install -r requirements.txt"
+3. Установить браузеры "python -m playwright install"
+4. Запустить тесты "pytest" (Запуск с отображением браузера "pytest --headed")
 
 
 Примечание:
-Проект выполнен в рамках тестового задания.
-Тесты запускались и проверялись локально (macOS, Python 3.12).
+Проект выполнен в рамках тестового задания. Тесты запускались и проверялись локально (macOS, Python 3.12).
+
 
